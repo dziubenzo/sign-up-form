@@ -20,7 +20,8 @@ div.image {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
+  position: relative;
 }
 
 div.text {
@@ -29,17 +30,23 @@ div.text {
 }
 
 div.logo-area {
-  background: rgb(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  background: rgb(0, 0, 0, 0.5);
   width: 100%;
-  height: 6rem;
-  opacity: 0.6;
+  height: 8rem;
+  position: absolute;
+  top: 30vh;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 div.acknowledgement {
   background: rgb(0, 0, 0, 0.3);
   width: 100%;
   height: 3rem;
-  align-self: flex-end;
   color: white;
   display: flex;
   justify-content: center;
@@ -49,4 +56,14 @@ div.acknowledgement {
 
 div.acknowledgement a {
   color: white;
+}
+
+.logo {
+  height: 100%;
+}
+
+.logo-text {
+  color: white;
+  font-size: 4rem;
+  font-weight: 800;
 }
