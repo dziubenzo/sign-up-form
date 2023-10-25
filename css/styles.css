@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  --full-viewport-height: 100vh;
+}
+
+body {
+  font-family: 'Roboto';
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--full-viewport-height);
+}
+
+div.image {
+  height: var(--full-viewport-height);
+  width: 40vw;
+  border: 5px solid black;
+}
+
+div.text {
+  height: var(--full-viewport-height);
+  width: 60vw;
+  border: 5px solid grey;
+}
