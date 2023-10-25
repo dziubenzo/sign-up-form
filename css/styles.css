@@ -28,6 +28,8 @@ div.image {
 div.text {
   height: var(--full-viewport-height);
   width: 60vw;
+  display: flex;
+  flex-direction: column;
 }
 
 div.logo-area {
@@ -67,4 +69,35 @@ div.acknowledgement a {
   color: white;
   font-size: 4rem;
   font-family: 'Clickuper';
+}
+
+div.text > div {
+  height: calc(var(--full-viewport-height) / 3);
+  width: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.text-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text-header,
+.text-footer {
+  background-color: rgb(246, 246, 246);
+}
+
+div.text p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  line-height: 1.8rem;
+  margin: 0 0 1rem 0;
+  width: min(100%, 60ch);
+}
+
+.italic {
+  font-style: italic;
 }
