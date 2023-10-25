@@ -2,14 +2,14 @@
 
 :root {
   --full-viewport-height: 100vh;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto';
-
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: var(--full-viewport-height);
 }
 
@@ -17,6 +17,8 @@ div.image {
   height: var(--full-viewport-height);
   width: 40vw;
   border: 5px solid black;
+  background: center url(/css/ilia-bronskiy--unsplash.jpg);
+  background-size: cover;
 }
 
 div.text {
