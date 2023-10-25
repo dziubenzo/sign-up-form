@@ -94,10 +94,38 @@ div.text p {
   font-size: 1.3rem;
   font-weight: bolder;
   line-height: 1.8rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 2rem 0;
   width: min(100%, 60ch);
 }
 
 .italic {
   font-style: italic;
+}
+
+button {
+  height: 40px;
+  width: 220px;
+  background-color: rgb(228, 180, 91);
+  border-radius: 8px;
+  border: 1px solid rgb(214, 161, 61);
+  box-shadow: 2px 2px 10px rgb(186, 186, 186);
+  font-size: 1.1rem;
+  padding: 8px;
+}
+
+button:hover,
+button:active {
+  background-color: rgb(225, 163, 47);
+  box-shadow: 2px 2px 10px rgb(157, 156, 156);
+  cursor: pointer;
+}
+
+div.text p.log-in-para {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+p.log-in-para a {
+  color: rgb(199, 136, 18);
+  text-decoration: none;
 }
