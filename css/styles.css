@@ -175,3 +175,7 @@ input:focus {
 input:focus.wrong-passwords {
   outline: 1px solid red;
 }
+
+div.form-wrapper .password-message {
+  font-size: 0.8rem;
+}
