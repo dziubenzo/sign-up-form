@@ -164,6 +164,7 @@ input {
   height: 1.8rem;
   border: 1px solid rgb(181, 181, 181);
   border-radius: 4px;
+  padding: 2px 8px;
 }
 
 input:focus {
@@ -177,5 +178,5 @@ input:focus.wrong-passwords {
 }
 
 div.form-wrapper .password-message {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
