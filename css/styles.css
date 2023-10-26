@@ -138,11 +138,22 @@ p.log-in-para a {
   text-decoration: none;
 }
 
+div.form-wrapper {
+  width: min(100%, 60ch);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 label {
   font-variant: small-caps;
 }
 
-div.wrapper div {
+div.form-wrapper div {
   display: flex;
   flex-direction: column;
+}
+
+input {
+  width: 200px;
 }
