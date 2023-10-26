@@ -137,3 +137,12 @@ p.log-in-para a {
   color: rgb(199, 136, 18);
   text-decoration: none;
 }
+
+label {
+  font-variant: small-caps;
+}
+
+div.wrapper div {
+  display: flex;
+  flex-direction: column;
+}
