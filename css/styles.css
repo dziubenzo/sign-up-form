@@ -170,3 +170,8 @@ input:focus {
   outline: 1px solid blue;
   box-shadow: 1px 1px 4px rgb(157, 156, 156);
 }
+
+.wrong-passwords,
+input:focus.wrong-passwords {
+  outline: 1px solid red;
+}
