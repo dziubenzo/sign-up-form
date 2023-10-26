@@ -142,13 +142,16 @@ div.form-wrapper {
   width: min(100%, 60ch);
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  column-gap: 1.5rem;
+  row-gap: 1rem;
 }
 
 label {
   font-variant: small-caps;
-  letter-spacing: 2px;
-  margin-bottom: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 div.form-wrapper div {
@@ -157,5 +160,8 @@ div.form-wrapper div {
 }
 
 input {
-  width: 200px;
+  width: 220px;
+  height: 1.7rem;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 4px;
 }
