@@ -180,3 +180,7 @@ input:focus.wrong-passwords {
 div.form-wrapper .password-message {
   font-size: 0.75rem;
 }
+
+.red {
+  color: red;
+}
