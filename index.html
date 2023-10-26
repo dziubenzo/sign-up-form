@@ -65,8 +65,15 @@
             </div>
             <div>
               <label for="password">password</label>
-              <input type="password" name="password" id="password" required />
-              <p class="password-message">sdddssd</p>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                minlength="8"
+                maxlength="20"
+                required
+              />
+              <p class="password-message"></p>
             </div>
             <div>
               <label for="confirm-password">confirm password</label>
@@ -74,6 +81,8 @@
                 type="password"
                 name="confirm-password"
                 id="confirm-password"
+                minlength="8"
+                maxlength="20"
                 required
               />
             </div>
