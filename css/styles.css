@@ -161,7 +161,12 @@ div.form-wrapper div {
 
 input {
   width: 220px;
-  height: 1.7rem;
+  height: 1.8rem;
   border: 1px solid rgb(181, 181, 181);
   border-radius: 4px;
+}
+
+input:focus {
+  outline: 1px solid blue;
+  box-shadow: 1px 1px 4px rgb(157, 156, 156);
 }
